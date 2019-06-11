@@ -1,6 +1,8 @@
 # NDFB
 new dark FB
 
+
+
 pkg install python2
 
 pkg install git
@@ -12,7 +14,5 @@ git clone https://github.com/mralpa/NDFB
 cd NDFB
 
 pip2 install -r requirements.txt
-
-pip2 install mechanize
 
 python2 ndfb.py
