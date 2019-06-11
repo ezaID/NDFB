@@ -15,4 +15,4 @@ pip2 install -r requirements.txt
 
 pip2 install mechanize
 
-python2 ndfb.
+python2 ndfb.py
